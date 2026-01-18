@@ -6,8 +6,6 @@ classification models to predict the presence of heart disease in a patient
 based on clinical attributes. This is a binary classification problem where
 the target variable indicates whether heart disease is present or not.
 
----
-
 ## Dataset Description
 The dataset used in this project contains 1025 instances and 14 features.
 It includes patient medical attributes such as age, cholesterol level,
@@ -15,8 +13,6 @@ blood pressure, and other heart-related measurements.
 The target variable is binary:
 - 0 indicates absence of heart disease
 - 1 indicates the presence of heart disease
-
----
 
 ## Models Implemented
 The following six classification models were implemented and evaluated:
@@ -26,9 +22,7 @@ The following six classification models were implemented and evaluated:
 3. K-Nearest Neighbours (KNN)  
 4. Naive Bayes  
 5. Random Forest  
-6. XGBoost  
-
----
+6. XGBoost
 
 ## Model Performance Comparison
 
@@ -40,8 +34,6 @@ The following six classification models were implemented and evaluated:
 | Naive Bayes | 0.83 | 0.90 | 0.81 | 0.88 | 0.84 | 0.66 |
 | Random Forest | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |
 | XGBoost | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 |
-
----
 
 ## Observations
 - Logistic Regression showed moderate performance due to its linear decision boundary.
